@@ -18,37 +18,36 @@ This is a fully responsive frontend implementation of the **1MDM Seller Platform
 
 ReactApp/
 ├── public/
-│   └── favicon.ico
+│ └── favicon.ico # Site icon
 │
-├── src/
-│   ├── assets/
-│   │   ├── logo.png
-│   │   ├── person1.jpg
-│   │   ├── person2.jpg
-│   │   ├── person3.jpg
-│   │   ├── laptop.jpg
-│   │   ├── analysis.jpg
-│   │   └── service.jpg
-│   │
-│   ├── components/
-│   │   ├── Navigation.jsx
-│   │   ├── HeroSection.jsx
-│   │   ├── Highligted.jsx
-│   │   ├── InsightTabs.jsx
-│   │   ├── TestimonialCarousel.jsx
-│   │   └── Footer.jsx
-│   │
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
+├── src/ # Source code
+│ ├── assets/ # Images and media assets
+│ │ ├── logo.png
+│ │ ├── person1.jpg
+│ │ ├── person2.jpg
+│ │ ├── person3.jpg
+│ │ ├── laptop.jpg
+│ │ ├── analysis.jpg
+│ │ └── service.jpg
+│ │
+│ ├── components/ # React UI components
+│ │ ├── Navigation.jsx
+│ │ ├── HeroSection.jsx
+│ │ ├── Highlited.jsx
+│ │ ├── InsightTabs.jsx
+│ │ ├── TestimonialCarousel.jsx
+│ │ └── Footer.jsx
+│ │
+│ ├── App.jsx # Root component
+│ ├── index.css # Tailwind CSS & global styles
+│ └── main.jsx # React DOM rendering entry point
 │
-├── .gitignore
-├── index.html
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-└── vite.config.js
-
+├── .gitignore # Files to ignore by Git
+├── index.html # HTML template for Vite
+├── package.json # Project metadata & dependencies
+├── postcss.config.js # Tailwind & PostCSS config
+├── tailwind.config.js # Tailwind theme and extensions
+└── vite.config.js # Vite build & dev server config
 
 ---
 
