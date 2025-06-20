@@ -1,12 +1,93 @@
-# React + Vite
+# 💼 1MDM Seller Platform – Internship Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fully responsive frontend implementation of the **1MDM Seller Platform** as part of my internship assessment project. The goal is to build a clean, scalable, and mobile-friendly B2B medical equipment marketplace landing page using **React** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **React** (with functional components + hooks)
+- **Tailwind CSS** (utility-first responsive styling)
+- **React Icons** (for icons like quotes, arrows)
+- **Responsive Design** (mobile-first approach)
+- **Image Assets** stored locally in `/assets`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+
+ReactApp/
+├── public/
+│   └── favicon.ico
+│
+├── src/
+│   ├── assets/
+│   │   ├── logo.png
+│   │   ├── person1.jpg
+│   │   ├── person2.jpg
+│   │   ├── person3.jpg
+│   │   ├── laptop.jpg
+│   │   ├── analysis.jpg
+│   │   └── service.jpg
+│   │
+│   ├── components/
+│   │   ├── Navigation.jsx
+│   │   ├── HeroSection.jsx
+│   │   ├── Highligted.jsx
+│   │   ├── InsightTabs.jsx
+│   │   ├── TestimonialCarousel.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
+
+
+---
+
+## 📌 Features Implemented
+
+| Section                     | Description                                                                 |
+|----------------------------|-----------------------------------------------------------------------------|
+| **Navigation**             | Top info bar + fixed navbar (on scroll), fully responsive                   |
+| **Hero Section**           | Headline, CTA buttons, key business stats, mobile-friendly layout           |
+| **Highlight Banner**       | Bold center-aligned promo + subtext                                         |
+| **Tool Tabs**              | Interactive tab layout with right-side image and description toggle         |
+| **Carousel (Testimonials)**| Auto/manual slide change with animations, image + description per slide     |
+| **Footer**                 | Fully structured footer with platform links, contact, and copyright info    |
+
+---
+
+## 📱 Responsiveness
+
+Every section is fully responsive and adapts to:
+
+- **Mobile screens (≤ 640px)** – stacked layout, buttons full-width, center-aligned
+- **Tablet screens (≤ 768px)** – optimized font sizes and spacing
+- **Desktop (≥ 1024px)** – grid layouts, side-by-side components, hover effects
+
+---
+
+## 🎯 Notes
+
+- Placeholder images used from `/assets`; in production, replace with real images from CDN or backend.
+- Links like `/pricing.php` or `/contact.php` assumed to exist on the backend.
+- Tailwind classes ensure smooth hover transitions, shadows, spacing, and typography.
+
+---
+
+## 📌 How to Run
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
