@@ -1,24 +1,26 @@
 import { useState } from "react";
 import { FaQuoteLeft, FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import person3 from '../assets/person3.jpg'
+import person2 from '../assets/person2.jpg'
 
 const testimonials = [
   {
     name: "Rupesh Kanna",
     description:
       "Rupesh Kanna found himself in between jobs in 2016. He started a blog, and wrote about his past experience as a lab technician while sharing his knowledge on imaging techniques. Kanna wanted to see more diversity in the medical devices industry and specialised high-quality pigmented imaging process, so he decided to create his own product line.",
-    image: "/images/rupesh.png",
+    image: person3,
   },
   {
     name: "Amelia Smith",
     description:
       "Amelia turned her healthcare passion into a thriving B2B medical export business. After onboarding 1mdm.com, her outreach grew 300%.",
-    image: "/images/amelia.png",
+    image: person2,
   },
   {
     name: "David Lin",
     description:
       "David used 1mdm to connect with global labs for his custom diagnostic kits. He praises the analytics tools and seamless logistics.",
-    image: "/images/david.png",
+    image: person3,
   },
 ];
 

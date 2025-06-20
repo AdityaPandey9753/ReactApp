@@ -19,25 +19,25 @@ const Footer = () => {
             <h5 className="font-semibold mb-4">Platform</h5>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <a href="/seller">Sell on 1MDM</a>
+                <a>Sell on 1MDM</a>
               </li>
               <li>
-                <a href="/pricing">Pricing</a>
+                <a>Pricing</a>
               </li>
               <li>
-                <a href="/about">About Us</a>
+                <a>About Us</a>
               </li>
               <li>
-                <a href="/our-story">Our Story</a>
+                <a>Our Story</a>
               </li>
               <li>
-                <a href="https://superlabs.co/careers.php">Careers</a>
+                <a>Careers</a>
               </li>
               <li>
-                <a href="/blog">Blog</a>
+                <a>Blog</a>
               </li>
               <li>
-                <a href="/brands">Brands</a>
+                <a>Brands</a>
               </li>
             </ul>
           </div>
@@ -47,19 +47,19 @@ const Footer = () => {
             <h5 className="font-semibold mb-4">Press Room</h5>
             <ul className="space-y-2 text-gray-300 mb-6">
               <li>
-                <a href="/press">Images & B-roll</a>
+                <a>Images & B-roll</a>
               </li>
             </ul>
             <h5 className="font-semibold mb-4">Policies</h5>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <a href="/terms-of-service">Terms of Service</a>
+                <a>Terms of Service</a>
               </li>
               <li>
-                <a href="/privacy-policy">Privacy Policy</a>
+                <a>Privacy Policy</a>
               </li>
               <li>
-                <a href="/delivery-information">Delivery Information</a>
+                <a>Delivery Information</a>
               </li>
             </ul>
           </div>
@@ -69,10 +69,10 @@ const Footer = () => {
             <h5 className="font-semibold mb-4">Reach Us</h5>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <a href="/corporate-information">Corporate Information</a>
+                <a>Corporate Information</a>
               </li>
               <li>
-                <a href="/contact">Contact Us</a>
+                <a>Contact Us</a>
               </li>
             </ul>
           </div>
@@ -81,7 +81,7 @@ const Footer = () => {
       <div className="border-t border-white/10 mt-3 pt-3 mb-2 text-center justify-center text-black text-l">
         © {new Date().getFullYear()}{" "}
         <span >1MDM</span> ⚡ by{" "}
-        <span href="https://superlabs.co" className="underline">
+        <span className="underline">
           SuperLabs
         </span>
       </div>
