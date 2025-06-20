@@ -14,43 +14,6 @@ This is a fully responsive frontend implementation of the **1MDM Seller Platform
 
 ---
 
-## 📁 Project Structure
-
-ReactApp/
-├── public/
-│ └── favicon.ico # Site icon
-│
-├── src/ # Source code
-│ ├── assets/ # Images and media assets
-│ │ ├── logo.png
-│ │ ├── person1.jpg
-│ │ ├── person2.jpg
-│ │ ├── person3.jpg
-│ │ ├── laptop.jpg
-│ │ ├── analysis.jpg
-│ │ └── service.jpg
-│ │
-│ ├── components/ # React UI components
-│ │ ├── Navigation.jsx
-│ │ ├── HeroSection.jsx
-│ │ ├── Highlited.jsx
-│ │ ├── InsightTabs.jsx
-│ │ ├── TestimonialCarousel.jsx
-│ │ └── Footer.jsx
-│ │
-│ ├── App.jsx # Root component
-│ ├── index.css # Tailwind CSS & global styles
-│ └── main.jsx # React DOM rendering entry point
-│
-├── .gitignore # Files to ignore by Git
-├── index.html # HTML template for Vite
-├── package.json # Project metadata & dependencies
-├── postcss.config.js # Tailwind & PostCSS config
-├── tailwind.config.js # Tailwind theme and extensions
-└── vite.config.js # Vite build & dev server config
-
----
-
 ## 📌 Features Implemented
 
 | Section                     | Description                                                                 |
